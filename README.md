@@ -1,4 +1,4 @@
-#Pratiksha Angad Gore
+# Pratiksha Angad Gore
 
 # osumare-backend
 Building a RESTful API for an assignment.
@@ -60,10 +60,13 @@ node server.js`
 -Retrieves a list of all tasks.
 
 -Response: `
+
       [
          {
             id: 1,
+            
             Title: "Task Title",
+            
             Description: "Task Description" 
          }, 
          ...
@@ -74,9 +77,12 @@ node server.js`
 -Retrieves a specific task by ID.
 
 -Response: `
+
       { 
          id: 1,
+         
          Title: "Task Title",
+         
          Description: "Task Description" 
       }`
 
@@ -88,6 +94,7 @@ node server.js`
 
       {
          Title: "Task Title",   
+         
          Description: "Task Description" 
       }`
       
@@ -95,7 +102,9 @@ node server.js`
 
       {
          id: 1, 
+         
          Title: "Task Title",
+         
          Description: "Task Description" 
       }`
 
@@ -107,13 +116,17 @@ node server.js`
 
       {
          Title: "Updated Title",
+         
          Description: "Updated Description" 
       }`
       
 -Response: `  
+
       {
          id: 1,
+         
          Title: "Updated Title", 
+         
          Description: "Updated Description" 
       }`
 
@@ -122,10 +135,14 @@ node server.js`
 -Deletes a task by ID.
 
 -Response: `
+
       [
-         { id: 1, 
-         Title: "Deleted Title", 
-         Description: "Deleted Description" 
+         { 
+            id: 1, 
+         
+            Title: "Deleted Title",
+         
+            Description: "Deleted Description" 
          }
       ]`
 
